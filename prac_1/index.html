@@ -4,12 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Practice</title>
+
+
+    <!-- css files -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
 </head>
 <body>
     
+    <div class="container-fluid">
+        <div class="row m-3">
+            <!-- table -->
+            <div class="col-6">
+                <table class="table">
+                    <tr class="table-light">
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                        </td>
+                        <th>SL</th>
+                        <th>FULL NAME</th>
+                        <th>EMAIL ADDRESS</th>
+                        <th>PHONE NUMBER</th>
+                        <th>BEANS</th>
+                        <th>GEMS</th>
+                        <th>ACTION</th>
+                    </tr>
+                    <tr class="table-light">
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                        </td>
+                        <td>251</td>
+                        <td>Muuray Simon</td>
+                        <td>simon.m@gmail.com</td>
+                        <td>+1 34222 3421</td>
+                        <td>5322</td>
+                        <td>273</td>
+                        <td>...</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                        </td>
+                        <td>252</td>
+                        <td>Rafael Sinatra</td>
+                        <td>s.rafael@gmail.com</td>
+                        <td>+1 52322 3441</td>
+                        <td>9332</td>
+                        <td>400</td>
+                        <td>...</td>
+                    </tr>
+                    <tr class="table-light">
+                        <td>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                              </div>
+                        </td>
+                        <td>253</td>
+                        <td>Juan Simha</td>
+                        <td>j.simha@gmail.com</td>
+                        <td>+1 82132 3009</td>
+                        <td>8211</td>
+                        <td>500</td>
+                        <td>...</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!-- card  -->
+        <div class="col-2">
+            <div class="card p-4">
+                <div class="img-sort mb-3">
+                    <img src="images/camera_icon.png" alt="">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" >
+                </div>
+                
+                <div class="mb-5">
+                    <label class="form-label">Country Name</label>
+                    <input type="text" class="form-control" >
+                </div>
+                
+                <div class="col-1">
+                    <button type="submit" class="btn btn-sm btn-primary"> Save </button>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
 
 
+    <!-- js files  -->
     <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
