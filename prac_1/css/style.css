@@ -24,3 +24,28 @@
     /* right: 50px; */
 
 }
+
+
+
+
+.form_container{
+    /* color: #9747FF; */
+    font-family: "Inter";
+    font-weight: 700;
+    
+}
+
+.col-4 h5{
+    color: #9747FF;
+}
+
+form{
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+p{
+    color: #9747FF;
+}
+
+
