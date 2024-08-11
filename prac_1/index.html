@@ -277,7 +277,18 @@
                     </nav>
                 </div>
                 <div class="col-3">
-                    <h3>offcanvas</h3>
+                    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#myoffcanvas">
+                        Buger Menu
+                    </button>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="myoffcanvas">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title"><h6>Do you know what's Bootstrap?</h6></div>
+                            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque dignissimos fugit velit reiciendis reprehenderit, numquam quae architecto explicabo mollitia error quam eligendi quia quidem? Similique quaerat neque libero vel tempora?</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-3">
                     <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#mymodal">
@@ -294,11 +305,44 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-
+                                    <div class="container-fluid">
+                                        <div class="row mb-2">
+                                            <div class="col-6 shadow-none p-3 mb-5 bg-light rounded">
+                                                <h6>Daily Earnings</h6>
+                                                <h5>27,799</h5>
+                                            </div>
+                                            <div class="col-6 p-3 mb-5">
+                                                <h6>Weakly Earnings</h6>
+                                                <h5>53,220</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-3">
+                                            <div class="col-6 p-3 mb-5">
+                                                <h6>Monthly Earnings</h6>
+                                                <h5>27,799</h5>
+                                            </div>
+                                            <div class="col-6 shadow-none p-3 mb-5 bg-light rounded" style="background-color: rgba(238, 96, 147, 1) !important;
+                                            color: #fff;">
+                                                <h6>Current Balance</h6>
+                                                <h5>53,220</h5>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12 shadow-none p-3 mb-5 bg-light rounded">
+                                                <h5>Host Deatils</h5>
+                                                <p><b>Agengy ID: </b>Zahidur Rahman</p>
+                                                <p><b>Agengy Name: </b>Quibek Tribe</p>
+                                                <p><b>Total Host Salary: </b>$280</p>
+                                                <p><b>Total Bean: </b>780</p>
+                                                <p><b>Host Type: </b>  Video</p>
+                                                <p><b>Joining Date: </b>11-08-2024</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="modal footer">
+                                <!-- <div class="modal-footer">
 
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
